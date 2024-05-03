@@ -12,12 +12,11 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
 
     private var gameModel: GameModel? = null
 
-//changes
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityGameBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //changes
+
 
         binding.btn0.setOnClickListener(this)
         binding.btn1.setOnClickListener(this)
